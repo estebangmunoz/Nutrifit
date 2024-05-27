@@ -1,8 +1,6 @@
 # Nutrifit
 Trabajo final de Proyectos de Programación.
 
-Nutrifit es un programa que permite al usuario cumplir sus objetivos en cuanto deporte y dieta. Con Nutrifit, el usuario podrá generar distintos planes de ejercicio y dietas personalizadas a sus gustos y necesidades. Cada usuario tiene una cuenta y puede publicar recetas así como ver las publicadas por otros usuarios.
-
 ## Módulo Social
 
 En este módulo se permite a los usuarios crear una cuenta proporcionando su nombre, correo electrónico, contraseña, peso y altura, los cuales se almacenan en el archivo usuarios.txt. Los usuarios pueden iniciar sesión con su correo electrónico y contraseña, y el sistema verifica las credenciales comparándolas con los datos en usuarios.txt.
