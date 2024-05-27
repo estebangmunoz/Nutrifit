@@ -11,15 +11,15 @@ El usuario podrá elegir el número de días que dure la dieta. No hay límite d
 
 El módulo cuenta con las siguientes clases:
 
-         Food:                Esta clase representa un alimento.
+Food:                Esta clase representa un alimento.
         
-         FoodList:            Esta clase representa un vector de alimentos. FoodList ha resultado ser un objeto muy versátil, siendo utilizado tanto para contener todos los                                alimentos disponibles como para manejar cómodamente pequeñas cantidades de alimentos.Se han implementado varios métodos para el fácil manejo                                  de esta clase. Por ejemplo, se ha sobrecargado el operador '[]', para poder hacer: 'FoodList[i]' y que se devuelva un alimento.
+FoodList:            Esta clase representa un vector de alimentos. FoodList ha resultado ser un objeto muy versátil, siendo utilizado tanto para contener todos los                                alimentos disponibles como para manejar cómodamente pequeñas cantidades de alimentos.Se han implementado varios métodos para el fácil manejo                                  de esta clase. Por ejemplo, se ha sobrecargado el operador '[]', para poder hacer: 'FoodList[i]' y que se devuelva un alimento.
         
-         Meal:                Esta clase crea una comida que consta de tres alimentos diferentes. Se tienen en cuenta las distintas categorías que puede ser un alimento                                    para crear desayuno, comida y cena con los alimentos que corresponden más a cada hora del día. Genera la Meals cuadrando los alimentos                                        necesarios para que sumen un número concreto de Kilocalorías en total.La función 'writeMeal(&ofstream file)' usa una referencia a un archivo                                  abierto por otra función de otra clase. También se ha hecho sobrecarga de operadores para poder acceder a los alimentos de un Meal. 'Meal[i]'                                 devolverá el primer, segundo o tercer alimento de la comida. Los corchetes no admitirán ningún número menor que uno o mayor que tres.
+Meal:                Esta clase crea una comida que consta de tres alimentos diferentes. Se tienen en cuenta las distintas categorías que puede ser un alimento                                    para crear desayuno, comida y cena con los alimentos que corresponden más a cada hora del día. Genera la Meals cuadrando los alimentos                                        necesarios para que sumen un número concreto de Kilocalorías en total.La función 'writeMeal(&ofstream file)' usa una referencia a un archivo                                  abierto por otra función de otra clase. También se ha hecho sobrecarga de operadores para poder acceder a los alimentos de un Meal. 'Meal[i]'                                 devolverá el primer, segundo o tercer alimento de la comida. Los corchetes no admitirán ningún número menor que uno o mayor que tres.
                                
-         Day:                 Esta representa un día completo con número y con 3 Meals: desayuno, comida y cena. Se usará sobre todo para generar la dieta y escribirla en                                  el archivo '.txt'.
+Day:                 Esta representa un día completo con número y con 3 Meals: desayuno, comida y cena. Se usará sobre todo para generar la dieta y escribirla en                                  el archivo '.txt'.
 
-         Diet:                Utilizando las clases Meal y Day. Genera el planning de la dieta con la duración (en días) que haya querido el usuario y  la escribe en un                                    archivo '.txt'.
+Diet:                Utilizando las clases Meal y Day. Genera el planning de la dieta con la duración (en días) que haya querido el usuario y  la escribe en un                                    archivo '.txt'.
 
-         UserStatus:          Maneja información concreta del usuario para calcular las Kilocalorías que va a necesitar consumir cada día del planning.
+UserStatus:          Maneja información concreta del usuario para calcular las Kilocalorías que va a necesitar consumir cada día del planning.
 
